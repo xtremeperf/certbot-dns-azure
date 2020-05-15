@@ -1,4 +1,4 @@
-FROM certbot/certbot
+FROM certbot/certbot:v0.27.0
 
 COPY . src/certbot-dns-azure
 
